@@ -1,0 +1,14 @@
+{
+  "name": "client-side-routing-vanillajs",
+  "version": "1.0.0",
+  "description": "simple client side routing with vanilla JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server-spa"
+  },
+  "author": "Said Shahrokh Temori",
+  "license": "ISC",
+  "dependencies": {
+    "http-server-spa": "^1.3.0"
+  }
+}

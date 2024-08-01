@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Client side routing Demo with Vanilla JS</title>
+</head>
+<body>
+  <header>
+    <ul>
+      <li><button id="homeBtn">Home</button></li>
+      <li><button id="aboutBtn">About</button></li>
+      <li><button id="contactBtn">Contact</button></li>
+      <li><button id="product1Btn">Product 1</button></li>
+      <li><button id="product2Btn">Product 2</button></li>
+    </ul>
+  </header>
+  <div data-router-outlet></div>
+
+  <script src="js/routes.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
